@@ -12,7 +12,7 @@ fn main() {
     // Copy a cached version of the static lib to the output dir, rather
     // than building it for source if we're building for docs.rs, since
     // there is no network access in docs.rs builds.
-    if std::env::var("DOCS_RS").is_err() {
+    if std::env::var("DOCS_RS").is_ok() {
         fs::copy(
             "docs.rs-build/libuhppoted.a",
             &out_path.join("libuhppoted.a"),
