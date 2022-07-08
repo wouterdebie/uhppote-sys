@@ -15,3 +15,14 @@ Most of this crate is generated in `build.rs`.
 - The resulting `uhppoted-dll` static library is then copied to the `target/` directory.
 - `bindgen` is used to generate the Rust bindings from the `uhppoted-dll` C header file.
 - The Rust bindings and static library are then compiled and linked into a single library.
+
+## Building from source
+
+```bash
+git submodule update --init --recursive
+cargo build --release
+```
+
+```
+
+```

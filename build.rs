@@ -33,7 +33,7 @@ fn main() {
                 "go/tasks.go",
                 "go/main.go",
             ])
-            .current_dir("vendor/uhppoted-dll")
+            .current_dir(manifest_path.join("vendor/uhppoted-dll"))
             .status()
             .expect("Make upstream uhppoted-dll failed");
 
