@@ -20,7 +20,7 @@ fn main() {
         .unwrap();
     } else {
         // Update submodules
-        let status = Command::new("git")
+        let _status = Command::new("git")
             .arg("submodule")
             .arg("update")
             .arg("--init")

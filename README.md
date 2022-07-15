@@ -1,5 +1,7 @@
 # uhppote-sys
 
+NOTE: This project has been deprecated!
+
 This crate contains FFI bindings for [uhppoted-dll](https://github.com/uhppoted/uhppoted-dll)
 that's part of the [uhppoted](https://github.com/uhppoted/uhppoted) project.
 
